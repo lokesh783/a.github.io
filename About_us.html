@@ -12,8 +12,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script>
     function validateForm() {
-      if (document.forms["lokeshform"]["enable"].checked)
+      
           alert("your form is submitted we will contact u soon");
+          location.href="home.html";
   }
   </script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -82,7 +83,7 @@
 
   <h2>For any query message us</h2>
   <div class="form-container">
-    <form onsubmit="return validateForm()" method="post" class="lokeshform" >
+    <form  method="post" class="lokeshform"  action="home.html">
       <label class="data" for="fname">First Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -93,7 +94,7 @@
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
        
-      <button type="submit" id="submitForm">Submit</button>
+      <button onclick="validateForm()" type="submit" id="submitForm">Submit</button>
     </form>
   </div>
 
