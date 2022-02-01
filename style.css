@@ -60,8 +60,8 @@ body{
 .com
 {
     height: 20%;
-    margin-top: 25%;
-    padding-top: 15rem;
+    margin-top: 15%;
+    padding-top: 28rem;
     position: relative;
 }
 h1{
@@ -109,8 +109,6 @@ h1{
     {
         background-image: url(young-friends-on-thrilling-roller-600w-516639973.webp);
     }
-  
-
 }
 
 .outer
@@ -154,7 +152,7 @@ h1{
     object-fit: cover;
     border: 1px solid black;
     /* height: 1%; */
-    width: 31%;
+    width: 29.5%;
     margin: 5px;
     margin-bottom: 20px;
     margin-left: 0.9%;
